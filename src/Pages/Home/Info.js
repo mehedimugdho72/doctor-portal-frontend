@@ -8,12 +8,12 @@ const Info = () => {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
         <InfoCard
           cardTitle="Opening Hours"
-          bgClass="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500"
+          bgClass="bg-primary"
           img={clock}
         ></InfoCard>
         <InfoCard
           cardTitle="Our Location"
-          bgClass=" bg-gradient-to-r from-cyan-300 to-pink-500 hover:from-pink-500 hover:to-yellow-500"
+          bgClass=" bg-accent "
           img={marker}
         ></InfoCard>
         <InfoCard
