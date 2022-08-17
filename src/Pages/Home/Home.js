@@ -9,6 +9,8 @@ import Services from './Services';
 import Testimonials from './Testimonials';
 import Meassenger from './Meassenger';
 
+
+
 const Home = () => {
     return (
       <div className="px-12">
@@ -19,6 +21,7 @@ const Home = () => {
         <Testimonials></Testimonials>
         <Review></Review>
         <Contact></Contact>
+       
         <Meassenger></Meassenger>
         <Footer></Footer>
       </div>
